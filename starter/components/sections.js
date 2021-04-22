@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Hero from "@/components/sections/hero";
+import SkyHero from "@/components/sections/sky-hero";
 import LargeVideo from "@/components/sections/large-video";
 import FeatureColumnsGroup from "@/components/sections/feature-columns-group";
 import FeatureRowsGroup from "@/components/sections/feature-rows-group";
@@ -8,10 +9,13 @@ import TestimonialsGroup from "@/components/sections/testimonials-group";
 import RichText from "./sections/rich-text";
 import Pricing from "./sections/pricing";
 import LeadForm from "./sections/lead-form";
+import SkyFeatures from "./sections/sky-features";
 
 // Map Strapi sections to section components
 const sectionComponents = {
   "sections.hero": Hero,
+  "sections.sky-hero": SkyHero,
+  "sections.sky-features": SkyFeatures,
   "sections.large-video": LargeVideo,
   "sections.feature-columns-group": FeatureColumnsGroup,
   "sections.feature-rows-group": FeatureRowsGroup,
