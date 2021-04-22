@@ -48,3 +48,31 @@ html {
   display: inline-block;
   margin-left: 0.5em;
 }
+
+.skystra-hero {
+  background-color: #2073bb;
+  padding-left: 250px;
+  color: #fff;
+}
+
+.skystra-hero h1 {
+  font-size: 41px;
+  line-height: 1.3em;
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  margin: 0;
+}
+
+.skystra-hero a > div {
+  color: #fff;
+  background-color: #3f3f3fd4;
+  padding: 15px 40px;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  border: 0;
+  border-radius: 0;
+}
